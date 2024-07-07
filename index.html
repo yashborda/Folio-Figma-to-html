@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Folio demo website</title>
+    <link rel="shortcut icon" href="assets/img/logo-symbol.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body style="overflow-x: hidden;">
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid mt-0 mt-lg-3">
+            <a href="index.html" class="navbar-brand" style="margin-left: 15px;">
+                <img src="assets/img/logo.png" height="30px">
+            </a>
+            <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation" style=" margin-right: 25px; margin-top: 10px;">
+                <span class="navbar-toggler-icon top-bar"></span>
+                <span class="navbar-toggler-icon bottom-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <div>
+                            <p>2</p>
+                        </div>
+                        <a class="nav-link" href="#">Jobs</a>
+                    </li>
+                </ul>
+                <a href="tel:+91123-456-7890" class="btn d-none d-lg-block" role="button"
+                    style=" margin-right: 25px; margin-top: -12px;">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <header id="main">
+        <img src="assets/img/line.png" class="line d-none d-md-block ">
+        <div class="main-hero mt-2 mt-sm-4 overflow-hidden">
+            <div class="container-lg p-2 p-md-0">
+                <div class="row p-2 p-sm-4 p-lg-0">
+                    <div class="col-lg-4">
+                        <h1 class="mb-2 my-sm-5 d2" style="color: #232340;">Stand Out <br>from The<br> Crowd.</h1>
+                        <p class="mb-2 mb-sm-4 h6" style="color: #606060; font-weight: 400;">Agency is a full-service
+                            agency, busy designing and building beautiful digital products, brands, and experiences.</p>
+                        <a href="#" class="btn mb-2 mb-sm-4 btn1" role="button">Recent Work</a>
+                        <div class="mt-2 mt-sm-4 d-none d-lg-block"><img src="assets/img/arrow-1.png"><span
+                                class="menu-item ms-3" style="color: #8B8B8B;">Scroll down</span></div>
+                    </div>
+                    <div class="col-lg-8">
+                        <img src="assets/img/3d-w1.png" class="bg-img img-fluid" style="margin-top: 20px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div style="background: #232340;">
+        <section id="design">
+            <img src="assets/img/line-1.png" class="line-1 d-none d-lg-block">
+            <img src="assets/img/bg1.png" class="bg1 d-none d-lg-block">
+            <div class="container">
+                <div class="row">
+                    <div class="p-5 ps-3 mt-2 mt-sm-5 col-md-2 d-none d-md-block">
+                        <img src="assets/img/logo-symbol.png" style="width: 30px;">
+                    </div>
+                    <div class="p-5 ps-3 mt-2 mt-sm-5 col-md-7 col-12 ">
+                        <div class="d-flex">
+                            <p class="menu-item me-3" style="color: #8B8B8B;">01</p>
+                            <h6 class="menu-item text-white">Who We Are</h6>
+                        </div>
+                        <h1 class="h2 text-white">We Make <br class="d-block d-sm-none"> Designs that <br>Lead and <br
+                                class="d-block d-sm-none"> Inpire.</h1>
+                    </div>
+                    <div
+                        class="p-2 p-lg-5 mt-0 mt-lg-5 ps-sm-3 col-md-3 col-6 Arrow justify-content-start justify-content-lg-center">
+                        <button class="bg-transparent border-0"><img id="prev" aria-label="Previous"
+                                src="assets/img/left.png" class="img-fluid"></button>
+                        <button class="bg-transparent border-0"><img id="next" aria-label="Next"
+                                src="assets/img/right.png" class="img-fluid"></button>
+                    </div>
+                    <div class="p-5 ps-3 pt-5 pt-lg-3 col-md-2 col-6">
+                        <div class="d-block d-md-none  text-white slider-nav">
+                            <div>
+                                <h3>2017</h3>
+                            </div>
+                            <div>
+                                <h3>2018</h3>
+                            </div>
+                            <div>
+                                <h3>2019</h3>
+                            </div>
+                            <div>
+                                <h3>2020</h3>
+                            </div>
+                            <div>
+                                <h3>2021</h3>
+                            </div>
+                        </div>
+                        <div class="d-none d-md-block text-white">
+                            <div class="section-height">
+                                <div class="position-relative d-flex img_and_line-1">
+                                    <div class="small-line " style="display: block;"></div>
+                                    <h3>2017</h3>
+                                    <img src="assets/img/point-line.png" class="point-line " style="display: block;">
+                                </div>
+                                <div class="position-relative d-flex img_and_line-2 ">
+                                    <div class="small-line " style="display: none;"></div>
+                                    <h3>2018</h3>
+                                    <img src="assets/img/point-line.png" class="point-line " style="display: none;">
+                                </div>
+                                <div class="position-relative d-flex img_and_line-3">
+                                    <div class="small-line " style="display: none;"></div>
+                                    <h3>2019</h3>
+                                    <img src="assets/img/point-line.png" class="point-line " style="display: none;">
+                                </div>
+                                <div class="position-relative d-flex img_and_line-4">
+                                    <div class="small-line " style="display: none;"></div>
+                                    <h3>2020</h3>
+                                    <img src="assets/img/point-line.png" class="point-line " style="display: none;">
+                                </div>
+                                <div class="position-relative d-flex img_and_line-5">
+                                    <div class="small-line " style="display: none;"></div>
+                                    <h3>2021</h3>
+                                    <img src="assets/img/point-line.png" class="point-line " style="display: none;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-sm-5 p-0 ps-sm-3 col-md-10 col-12">
+                        <div class="slider-for">
+                            <div>
+                                <img src="assets/img/Group-147.png" class="Group-147">
+                            </div>
+                            <div>
+                                <img src="assets/img/Group-148.png" class="Group-147">
+                            </div>
+                            <div>
+                                <img src="assets/img/Group-147.png" class="Group-147">
+                            </div>
+                            <div>
+                                <img src="assets/img/Group-149.png" class="Group-147 active">
+                            </div>
+                            <div>
+                                <img src="assets/img/Group-150.png" class="Group-147">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row mb-sm-5 mb-2">
+                        <div class="p-2 p-sm-5 col-lg-2 d-none d-lg-block">
+                            <div class="streat-line"></div>
+                        </div>
+                        <div class="p-3 p-sm-5 col-lg-6 ">
+                            <h4 class="h5 text-white mb-2 mb-sm-4">A design team building a curated marketplace for UI
+                                designers.</h4>
+                            <p class="menu-item  mb-2 mb-sm-5 " style="color: #8B8B8B;">4,404 curated design resources
+                                to
+                                energize your creative workflow. We're a growing family of
+                                334,531 designers and makers from around the world</p>
+                            <a href="tel:+91123-456-7890" class="btn btn2" role="button">Contact Us</a>
+                        </div>
+                        <div class="p-2 p-sm-5 pt-sm-0 col-lg-4 d-flex justify-content-center text-white">
+                            <div class="circle text-center">
+                                <div class="big-num">28</div>
+                                <p class="h6">Bigest Branding</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div id="sec2" class="overflow-hidden">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="p-5 ps-3 mt-2 mt-sm-5 col-lg-2 d-none d-lg-block">
+                    <img src="assets/img/logo-symbol.png" style="width: 30px;">
+                </div>
+                <div class="p-5 ps-3 mt-2 mt-sm-5 col-lg-7 col-12 ">
+                    <div class="d-flex" style="color: #5468E7;">
+                        <p class="menu-item me-3">02</p>
+                        <h6 class="menu-item">Who We Are</h6>
+                    </div>
+                    <h1 class="h2">We Make <br class="d-block d-sm-none"> Designs that <br>Lead and <br
+                            class="d-block d-sm-none"> Inpire.</h1>
+                </div>
+                <div
+                    class="p-2 p-lg-5 mt-0 mt-lg-5 ps-sm-3 col-lg-3 col-12 Arrow justify-content-start justify-content-lg-end">
+                    <button class="bg-transparent border-0"><img id="prev1" aria-label="Previous"
+                            src="assets/img/left-black.png" class="img-fluid"></button>
+                    <button class="bg-transparent border-0"><img id="next1" aria-label="Next" src="assets/img/right.png"
+                            class="img-fluid"></button>
+                </div>
+                <div class="row pb-md-5 pb-2 mb-md-5 mb-3 align-items-center justify-content-center position-relative">
+                    <div class="card-shadow"> </div>
+                    <div id="card-1" class="card col-lg-3 flex-row flex-lg-column">
+                        <img src="assets/img/icon.png">
+                        <h3 class="pt-2 pt-lg-5">Strategy</h3>
+                    </div>
+                    <div id="card-2" class="card col-lg-3 flex-row flex-lg-column card-current">
+                        <img src="assets/img/icon-(1).png">
+                        <h3 class="pt-2 pt-lg-5">Branding</h3>
+                    </div>
+                    <div id="card-3" class="card col-lg-3 flex-row flex-lg-column">
+                        <img src="assets/img/icon-(2).png">
+                        <h3 class="pt-2 pt-lg-5">Interactive</h3>
+                    </div>
+                    <div id="card-4" class="card col-lg-3 flex-row flex-lg-column">
+                        <img src="assets/img/icon-(3).png">
+                        <h3 class="pt-2 pt-lg-5">Communicate</h3>
+                    </div>
+                </div>
+                <div class="row flex-md-row flex-column-reverse">
+                    <div class="col-md-6 autoplay-mob">
+                        <div>
+                            <img src="assets/img/mob-bg.png" class="img-fluid d-flex m-auto ">
+                        </div>
+                        <div>
+                            <img src="assets/img/mob-bg.png" class="img-fluid d-flex m-auto ">
+                        </div>
+                        <div>
+                            <img src="assets/img/mob-bg.png" class="img-fluid d-flex m-auto ">
+                        </div>
+                    </div>
+                    <div class="col-md-6 ">
+                        <div class="row align-items-center h-100">
+                            <div class="col-md-2 d-none d-md-block">
+                                <img src="assets/img/logo-symbol.png">
+                            </div>
+                            <div class="col-md-10 col-12">
+                                <h6 class="menu-item" style="color: #232340;"> <span class="menu-item"
+                                        style="color: #8B8B8B; padding-right: 22px;">03.</span>Achievement</h6>
+                            </div>
+                            <div class="col-12">
+                                <h5 class="h5 pb-5 mb-0 mb-sm-4">A design team building a curated marketplace for UI
+                                    designers.</h5>
+                                <p class="big-num" style="color: #5468E7;">68</p>
+                                <h1 class="h6"><span
+                                        style='font-size:22px; padding-right: 22px;'>&#128526;</span>Successful Projects
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sec4">
+        <div class="container">
+            <div class="row position-relative">
+                <img src="assets/img/girl-bg.png" class="girl-bg d-none d-md-block">
+                <div class="p-5 ps-3 mt-2 mt-sm-5 col-lg-2 d-none d-lg-block">
+                    <img src="assets/img/logo-symbol.png" style="width: 30px;">
+                </div>
+                <div class="p-5 ps-3 mt-2 mt-sm-5 col-lg-7 col-12 ">
+                    <div class="d-flex" style="color: #5468E7;">
+                        <p class="menu-item me-3" style="margin: 0;">04.</p>
+                        <h6 class="menu-item">Famous Projects</h6>
+                    </div>
+                    <h1 class="d2">Our Partnerships</h1>
+                    <h5 class="body-1" style="color: #606060;">Agency is a full-service agency, busy designing and
+                        building beautiful digital products, brands, and experiences.</h5>
+                </div>
+                <div
+                    class="p-lg-5 mt-lg-5 ps-sm-3 col-lg-3 Arrow justify-content-start justify-content-lg-center d-none d-lg-block">
+                    <a href="tel:+91123-456-7890" class="btn btn2 " role="button">Contact Us</a>
+                </div>
+            </div>
+            <div class="row mb-lg-5 flex-md-colum flex-row-reverse align-items-center position-relative">
+                <div class="col-lg-6 col-12">
+                    <img src="assets/img/girl-img.png" class=" girl-img d-none d-md-block">
+                    <img src="assets/img/girl-sm.png" class="d-block d-md-none d-flex mx-auto img-fluid">
+                    <a class="btn3 d-none d-md-block" role="button">Featured Product</a>
+                    <img src="assets/img/right.png" class="ra-img d-none d-md-block">
+                    <div class="view d-none d-lg-flex">
+                        <a class=" btn-css" role="button">view</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <h4 class="h4 t-head">Sapiens: The Free Character Builder App.</h4>
+                    <p class="body-1 t-body">Beautiful library of modular, component-based character illustrations free
+                        to use for all your personal or client projects.</p>
+                    <a href="#" class="d-block d-md-none ">
+                        <img src="assets/img/right-hover-black.png" width="48" class="border border-dark my-3"
+                            style="border-radius: 50%;">
+                    </a>
+                </div>
+            </div>
+            <div class="row mt-0 pt-0 mt-md-5 pt-md-5">
+                <div class="col-md-5 col-margin">
+                    <div class="row flex-column-reverse flex-md-column">
+                        <div class="col-12">
+                            <h4 class="h4">Bento 3D Illustration</h4>
+                        </div>
+                        <div class="col-12 orange">
+                            <img src="assets/img/b3d.png" class="b3d-img img-fluid">
+                            <a href="#" class="d-none d-md-block">
+                                <img src="assets/img/right-hover-black.png" width="48" class="border border-dark b3i_arrow">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <p class="body-1 mt-2 mt-lg-4" style="color: #606060;">Agency is a full-service agency, busy
+                            designing and building beautiful digital products,
+                            brands, and experiences.</p>
+                        <a href="#" class="d-block d-md-none ">
+                            <img src="assets/img/right-hover-black.png" width="48" class="border border-dark my-3"
+                                style="border-radius: 50%;">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3"></div>
+                <div class="col-md-4">
+                    <div class="row flex-column-reverse flex-md-column">
+                        <div class="col-12">
+                            <h4 class="h4">Bento Vol. 2</h4>
+                        </div>
+                        <div class="col-12 purple">
+                            <img src="assets/img/bv2.png" class="bv2-img img-fluid">
+                            <a href="#" class="d-none d-md-block">
+                                <img src="assets/img/right-hover-black.png" width="48" class="border border-dark bv2_arrow">
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <p class=" body-1 mt-2 mt-lg-4" style="color: #606060;">Agency is a full-service agency, busy
+                            designing and building beautiful digital products,
+                            brands, and experiences.</p>
+                        <a href="#" class="d-block d-md-none ">
+                            <img src="assets/img/right-hover-black.png" width="48" class="border border-dark my-3"
+                                style="border-radius: 50%;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-md-1"></div>
+                <div class="col-md-4 col-margin">
+                    <div class="row flex-column-reverse flex-md-column">
+                        <div class="col-12">
+                            <h4 class="h4">Sapiens: Man</h4>
+                        </div>
+                        <div class="col-12 pink">
+                            <img src="assets/img/man.png" class="man-img img-fluid">
+                            <a href="#" class="d-none d-md-block">
+                                <img src="assets/img/right-hover-black.png" width="48" class="border border-dark man_arrow">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-10">
+                        <p class="body-1 mt-2 mt-lg-4" style="color: #606060;">Agency is a full-service agency, busy
+                            designing and building beautiful digital products,
+                            brands, and experiences.</p>
+                        <a href="#" class="d-block d-md-none ">
+                            <img src="assets/img/right-hover-black.png" width="48" class="border border-dark my-3"
+                                style="border-radius: 50%; ">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-4">
+                    <div class="row flex-column-reverse flex-md-column">
+                        <div class="col-12">
+                            <h4 class="h4">Bento Vol. 3</h4>
+                        </div>
+                        <div class="col-12 blue">
+                            <img src="assets/img/sing.png" class="sing-img img-fluid">
+                            <a href="#" class="d-none d-md-block">
+                                <img src="assets/img/right-hover-black.png" width="48" class="border border-dark sing_Arrow">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-10">
+                        <p class="body-1 mt-2 mt-lg-4" style="color: #606060;">Agency is a full-service agency, busy
+                            designing and building beautiful digital products,
+                            brands, and experiences.</p>
+                        <a href="#" class="d-block d-md-none ">
+                            <img src="assets/img/right-hover-black.png" width="48" class="border border-dark my-3"
+                                style="border-radius: 50%;">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+
+        </div>
+    </div>
+
+    <section id="cta">
+        <div class="container position-relative py-5">
+            <div class="row ms-3 me-3 me-md-3 me-lg-5">
+                <div class="bg-blue d-none d-md-block"></div>
+                <img src="assets/img/Mask.png" class="mask d-none d-lg-block">
+                <img src="assets/img/Mask-1.png" class="mask-1 d-none d-sm-block d-lg-none">
+                <img src="assets/img/Mask-2.png" class="mask-2 d-sm-none">
+                <div class="bg-row row flex-md-row flex-column-reverse">
+                    <div class="col-md-6" style="z-index: 5; display: flex; justify-content: end;">
+                        <img src="assets/img/logo-symbol-pink.png" class="logo-pink d-none d-md-block">
+                        <img src="assets/img/Phone-2.png" class="Phone-2">
+                    </div>
+                    <div class="col-md-6 mt-5" style="z-index: 5;">
+                        <div class="d-flex text-white">
+                            <p class="menu-item me-3" style="margin: 0;">05.</p>
+                            <h6 class="menu-item">Call to action</h6>
+                        </div>
+                        <h4 class="h2 text-white mb-2 mb-sm-4">We Are Looking for Talented
+                            Designers</h4>
+                        <a href="#" class="btn btn4 mb-2 mb-sm-4" role="button"
+                            style="color: #5468E7; background-color: #fff;">Apply
+                            Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div id="sec5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-6 p-sm-0 p-4">
+                    <div class="row">
+                        <div class="col-md-2 ">
+                            <img src="assets/img/logo-symbol.png">
+                        </div>
+                        <div class="col-md-10 ">
+                            <div class="d-flex" style="color: #5468E7;">
+                                <p class="menu-item me-3" style="margin: 0;">05.</p>
+                                <h6 class="menu-item">We are hiring</h6>
+                            </div>
+                            <h1 class="d1">Jobs</h1>
+                            <p class="body-1">Agency is a full-service agency, busy designing and building beautiful
+                                digital products, brands, and experiences.</p>
+                            <div class="row">
+                                <div class="col-1 ">
+                                    <img src="assets/img/arrow-1.png" style="transform: rotate(-90deg);">
+                                </div>
+                                <div class="col-11">
+                                    <p class="ps-lg-4 ps-5">Available <br> Jobs</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 p-0">
+                    <div class="row job-card mx-2">
+                        <div class="card my-2 d-flex flex-row justify-content-between">
+                            <div class=" p-2">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center">
+                                        <h5 class="h5">Graphic Designer</h5>
+                                        <span>2</span>
+                                    </div>
+                                    <p class="body-1">2 years experience</p>
+                                    <a href="#"><i style="font-size:24px;" class="fa fa-long-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="Tablet-hover">
+                                <img src="assets/img/Tablet.png" class="Tablet-img d-none d-sm-block">
+                            </div>
+                        </div>
+                        <div class="card my-2 d-flex flex-row justify-content-between">
+                            <div class=" p-2">
+                                <div class="card-body">
+                                    <h5 class="h5">Visual Designer</h5>
+                                    <p class="body-1">2 years experience</p>
+                                    <a href="#"><i style="font-size:24px;" class="fa fa-long-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="Tablet-hover">
+                                <img src="assets/img/Tablet.png" class="Tablet-img d-none d-sm-block">
+                            </div>
+                        </div>
+                        <div class="card my-2 d-flex flex-row justify-content-between">
+                            <div class=" p-2">
+                                <div class="card-body">
+                                    <h5 class="h5">Art Director</h5>
+                                    <p class="body-1">2 years experience</p>
+                                    <a href="#"><i style="font-size:24px;" class="fa fa-long-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="Tablet-hover">
+                                <img src="assets/img/Tablet.png" class="Tablet-img d-none d-sm-block">
+                            </div>
+                        </div>
+                        <div class="card my-2 d-flex flex-row justify-content-between">
+                            <div class=" p-2">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center">
+                                        <h5 class="h5">Web Designer</h5>
+                                        <span>6</span>
+                                    </div>
+                                    <p class="body-1">2 years experience</p>
+                                    <a href="#"><i style="font-size:24px;" class="fa fa-long-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="Tablet-hover">
+                                <img src="assets/img/Tablet.png" class="Tablet-img d-none d-sm-block">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="hello">
+        <div class="container">
+            <div class="row desktop text-white d-none d-md-flex position-relative">
+                <img src="assets/img/line-2.png" class="line-2">
+                <div class="col-12 d-flex flex-column align-items-center justify-content-center border-line">
+                    <div class="d-flex flex-column align-items-center justify-content-center" style="max-width: 444px;">
+                        <div class="pb-sm-4 pb-2">
+                            <img src="assets/img/logo-symbol-pink.png" width="24">
+                        </div>
+                        <p class="menu-item pb-sm-4 pb-2"><span>👋</span>Say hello</p>
+                        <h5 class="h5">A design team building a curated marketplace for UI designers.</h5>
+                    </div>
+                </div>
+                <div class="col-6 d-flex align-items-center justify-content-center border-line-side">
+                    <h2 class="h2">Let’s talk about your next project</h2>
+                </div>
+                <div class="col-6 d-flex flex-column align-items-center justify-content-center">
+                    <img src="assets/img/SpeachBubble-V2.png" width="103">
+                    <div class="d-flex ">
+                        <h5 class="h5">Invest in your designs <br>today!</h5>
+                        <a><img src="assets/img/right-hover.png" class="rounded-circle border ms-5" width="50"
+                                height="50" style="cursor: pointer;"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row moblie m-2 text-white d-flex d-md-none position-relative overflow-hidden">
+                <img src="assets/img/line-2.png" class="line-2-moblie">
+                <div class="col-12 d-flex flex-column  justify-content-center border-line" style="z-index:1;">
+                    <div class="d-flex flex-column align-items-center justify-content-center">
+                        <div>
+                            <img src="assets/img/SpeachBubble-V2.png" width="60" style="margin-left:30px;">
+                        </div>
+                        <p class="menu-item"><span>👋</span>Say hello</p>
+                        <h5 class="menu-item mt-2 text-center">A design team building a curated marketplace for UI
+                            designers.</h5>
+                    </div>
+                </div>
+                <div class="col-12 d-flex flex-column align-items-center justify-content-center" style="z-index:1;">
+                    <h2 class="h5 mt-2">Let’s talk about your next project</h2>
+                    <a href="tel:+91123-456-7890" class="btn btn5 m-3 w-75 " role="button">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center mt-5 pt-sm-5">
+        <div class="pb-sm-5 pb-3">
+            <img src="assets/img/logo.png" class="footer-logo">
+        </div>
+        <p class="body-1" style="color: #606060;">Agency is a full-service agency, busy designing and building beautiful
+            <br class="d-none d-sm-block"> digital products brands, and experiences.</p>
+        <ul>
+            <li><a href="#" class="active">About</a></li>
+            <li><a href="#">work</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Jobs</a></li>
+        </ul>
+        <hr class="d-none d-sm-block mx-sm-5 mx-2">
+        <div class="d-flex mx-sm-5 mx-2 justify-content-between align-items-center flex-column-reverse flex-sm-row">
+            <div style="color: #adadad;">© 2020, Yash Borda Developer.</div>
+            <div class="footer-icon">
+                <ul>
+                    <li><a href="#" style="color: #5468E7;" class="">Follow us</a></li>
+                    <li><a href="https://www.linkedin.com/in/yash-borda-8abb9124b/"><i class="fa  fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/yashborda7048"><i class="fa fa-github"></i></a></li>
+                    <li><a href="https://wa.me/7048432374"><i class="fa fa-whatsapp"></i></a></li>
+                    <li><a href="https://t.me/yashborda"><i class="fa fa-telegram"></i></a></li>
+                    <li><a href="mailto:yashborda123@@gmail.com"><i class="fa fa-envelope"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/myscript.js"></script>
+</body>
+</body>
+
+</html>
